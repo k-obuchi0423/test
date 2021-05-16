@@ -1,0 +1,2 @@
+module Kadai_01 {
+}
