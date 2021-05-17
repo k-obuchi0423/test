@@ -6,25 +6,26 @@ public class Kadai01 {
 	
   public static void main(String[] args) {
 	  
-    System.out.println("“ü—Í");
-    //ƒCƒ“ƒXƒ^ƒ“ƒX‰»
+    System.out.println("å…¥åŠ›");
+    //ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹åŒ–
     Scanner scanner = new Scanner(System.in);  
-    //scanner‚ğ“Ç‚İæ‚ê‚é‚æ‚¤‚É
+    //scannerã‚’èª­ã¿å–ã‚Œã‚‹ã‚ˆã†ã«
     int num =scanner.nextInt();
-    //scanner‚ğI‚í‚é
+    //scannerã‚’çµ‚ã‚ã‚‹
     scanner.close();
-    //“ü—Í’l‚Ì“ñæ‚ğ‹‚ß‚é
+    //å…¥åŠ›å€¤ã®äºŒä¹—ã‚’æ±‚ã‚ã‚‹
 	int max = num * num;
-	//Å‘åŒ…”‚ğæ“¾
+	//æœ€å¤§æ¡æ•°ã‚’å–å¾—
 	int total = String.valueOf(max).length();   
-    //for•¶g‚Á‚ÄŠ|‚¯Z      
+    //foræ–‡ä½¿ã£ã¦æ›ã‘ç®—      
     for(int num1=1; num1<=num; num1++) {
       for(int num2=1; num2<=num; num2++) {
         int result = num1 * num2;   
-        //•\¦
+        //è¡¨ç¤º
     	System.out.printf(" " + "%" + total + "d", result);
       }
       System.out.println();
+      System.outprint("å¤‰æ›´");
     }
           
   }		
